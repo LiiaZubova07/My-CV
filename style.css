@@ -8,3 +8,23 @@ h1,h2,h3,h4,h5,h6 {
 	font-family:'Montserrat', sans-serif;
 	font-weight: 600;
 }
+
+.font {
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 50px;
+	font-size:xx-large;
+	font-weight: 600;
+	text-align: center;
+}
+
+h4 {
+	padding-left: 50px;
+	color: gray;
+	text-align: center;
+}
+
+h3 {
+	padding-top: 30px;
+	padding-left: 645px;
+	font-weight: 800;
+	}
