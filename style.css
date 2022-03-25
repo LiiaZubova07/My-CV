@@ -28,3 +28,28 @@ h3 {
 	padding-left: 645px;
 	font-weight: 800;
 	}
+
+	table {
+		border-collapse: collapse;
+		margin: auto;
+		}
+
+	th, td {
+		vertical-align: top;
+		padding-left: 50px;
+		}
+
+	.table-container {
+		margin-top: 40px;
+		}
+		
+	.title {
+		color: darkslategray;
+		font-weight:600;
+		}
+		
+	.info {
+		padding-left: 100px;
+		padding-bottom: 20px;
+		text-align: left;
+		}
