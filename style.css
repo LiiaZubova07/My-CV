@@ -16,8 +16,23 @@ h1,h2,h3,h4,h5,h6 {
 table {
 	border-collapse: collapse;
 	}
+	
+	th, td{
+		vertical-align: top;
+	}
 
-	th, td {
-		padding-left: 40px;
+	.table_container {
+		margin-top: 40px
+	}
+	
+	.title{
+		color: grey;
+		font-weight: 600;
+	}
+
+	.info {
+		padding-left: 100px;
+		padding-bottom: 20px;
+		text-align: left;
 	}
 	
