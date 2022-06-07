@@ -1,38 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
-
-body {
-	font-family:  'Montserrat', sans-serif;
+@font-face {
+	font-family: 'Calibri';
+	src: url('Calibri.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	font-family:'Montserrat', sans-serif;
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-SemiBold.ttf') format('truetype');
 	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
 }
 
-.font {
-	font-family:'Times New Roman', Times, serif 
+@font-face {
+	font-family: 'Calibri';
+	src: url('Calibri-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
 }
-
-table {
-	border-collapse: collapse;
-	}
-	
-	th, td{
-		vertical-align: top;
-	}
-
-	.table_container {
-		margin-top: 40px
-	}
-	
-	.title{
-		color: grey;
-		font-weight: 600;
-	}
-
-	.info {
-		padding-left: 100px;
-		padding-bottom: 20px;
-		text-align: left;
-	}
-	
