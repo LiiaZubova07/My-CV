@@ -188,7 +188,7 @@ h4 {
 	height: 498px;
 	background: rgba(196, 196, 196, 0.3);
 	border-radius: 10px;
-	padding: 0px 18px 10px 18px; 
+	padding: 0px 18px 10px 18px;
 }
 
 .about-me__main {
@@ -276,16 +276,29 @@ h4 {
 }
 
 
-.hobbies {
+.hobbies {}
 
+.hobbies h4 {
+	width: 90px;
+	height: 32px;
+	background: rgba(196, 196, 196, 0.35);
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hobbies__all {
+	padding: 0 97px 10px 28px;
 }
 
 .reading {
-display: inline-block;
+	display: inline-block;
 }
 
 .dance {
-display: inline-block;
+	display: inline-block;
 }
 
 .singing {
