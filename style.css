@@ -276,7 +276,9 @@ h4 {
 }
 
 
-.hobbies {}
+.hobbies {
+
+}
 
 .hobbies h4 {
 	width: 90px;
@@ -287,10 +289,11 @@ h4 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .hobbies__all {
-	padding: 0 97px 10px 28px;
+padding: 13px 10px 28px 0;
 }
 
 .reading {
