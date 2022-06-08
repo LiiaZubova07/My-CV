@@ -45,29 +45,141 @@
 	font-style: normal;
 	font-display: swap;
 }
+
 /*----------------------------------------------------------------------*/
 
 /*----------------------------ОБНУЛЕНИЕ---------------------------------*/
-*{padding: 0;margin: 0;border: 0;}
-*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
-nav,footer,header,aside{display: block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-input,button,textarea{font-family:inherit;}
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner{padding:0;border:0;}
-a,a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
-/*----------------------------------------------------------------------*/
-
-body {
-	max-width: 690px;
-	max-height: 563px;
-	background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+/*----------------------------------------------------------------------*/
+
+body {}
+
+main {
+	width: 690px;
+	height: 563px;
+	background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+	border-radius: 10px;
+}
+
+/*---------------------------------------------------------------------*/
+
+.about-me {
+	width: 300px;
+	height: 498px;
+	background: rgba(196, 196, 196, 0.3);
+	border-radius: 10px;
+}
+
+.about-me__image {}
+
+.main-photo {}
+
+.profile {}
+
+.contacts {}
+
+.email {}
+
+.phone-number {}
+
+.location {}
+
+.languages {}
+
+.list__languages {}
+
+.hobbies {}
+
+.reading {}
+
+.dance {}
+
+.singing {}
