@@ -180,8 +180,15 @@ h4 {
 	color: #FFFFFF;
 }
 
+h5 {
+font-weight: 700;
+font-size: 10px;
+line-height: 18px;
+color: #E5E5E5;
+}
 
-/*---------------------------------------------------------------------*/
+
+/*-------------------------------БЛОК 1-----------------------------*/
 
 .about-me {
 	width: 300px;
@@ -286,6 +293,7 @@ h4 {
 	background: rgba(196, 196, 196, 0.35);
 	border-radius: 10px;
 
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -293,17 +301,22 @@ h4 {
 }
 
 .hobbies__all {
-padding: 13px 10px 28px 0;
+margin: 13px 28px 10px 23px;
 }
 
 .reading {
 	display: inline-block;
+padding: 0 25px 0 0; 
 }
 
 .dance {
 	display: inline-block;
+	padding: 0 25px 0 0; 
 }
 
 .singing {
 	display: inline-block;
+	padding: 0 25px 0 0; 
 }
+
+/*--------------------------БЛОК 2--------------------------------*/
