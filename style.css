@@ -151,19 +151,28 @@ body {
 
 main {
 	width: 690px;
-	/* height: 563px; */
 	background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
 	padding: 10px 14px;
 	display: flex;
-
 	gap: 37px;
 	border-radius: 10px;
+}
+
+footer {
+	width: 690px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 14px;
 }
 
 @media screen and (max-width: 700px) {
 	main {
 		width: auto;
 		flex-direction: column;
+	}
+
+	footer {
+		width: auto;
 	}
 }
 
@@ -335,19 +344,14 @@ h6 {
 /*--------------------------БЛОК 2--------------------------------*/
 
 .second-block {
-	/* width: 325px;
-	height: 237px; */
-	background: #FFFFFF;
-	border-radius: 10px;
 	height: min-content;
-	padding: 20px;
-	height: min-content;
-	/* padding: 20px 7px 20px 14px; */
-	/* margin: 10px 14px 35px 0; */
 }
 
 .why-me {
 	overflow: hidden;
+	padding: 20px;
+	background: #FFFFFF;
+	border-radius: 10px;
 }
 
 .education {
@@ -417,3 +421,76 @@ h6:after {
 	text-align: center;
 }
 
+
+.code {
+	overflow: hidden;
+	background: rgba(196, 196, 196, 0.3);
+	border-radius: 10px;
+	margin-top: 33px;
+	padding: 10px;
+}
+
+.code__image {
+	width: 265px;
+	height: 208px;
+	margin-top: 10px;
+	margin-left: 30px;
+	flex-shrink: 0;
+}
+
+.code__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/*--------------------------FOOTER--------------------------------*/
+
+
+
+.github {
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 18px;
+	color: #E5E5E5;
+
+}
+
+.github a {
+	display: flex;
+	align-items: center;
+}
+
+.github a:visited {
+	color: #E5E5E5;
+}
+
+.github a:hover {
+	color: #A5A5A5;
+}
+
+.github a:active {
+	color: #5F5F5F;
+}
+
+
+
+.github img {
+	margin-right: 12px;
+	width: auto;
+	height: 25px;
+}
+
+.year {
+	margin: auto;
+	margin-right: auto;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 18px;
+	color: #E5E5E5;
+}
+
+.logo {
+	widows: 100%;
+	height: 21px;
+}
