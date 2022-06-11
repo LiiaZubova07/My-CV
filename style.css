@@ -143,7 +143,8 @@ body {
 	font-family: "Montserrat";
 	display: grid;
 	place-items: center;
-	min-height: 100vh; /*минимальная высота будет 100vh. общепринятое, задавать минимальную высоту экрана, когда контент меньше и прокрутка не подразумевается. на мобилке, если высота ограничена, то прокрутка есть и это сломает прокрутку.*/
+	min-height: 100vh;
+	/*минимальная высота будет 100vh. общепринятое, задавать минимальную высоту экрана, когда контент меньше и прокрутка не подразумевается. на мобилке, если высота ограничена, то прокрутка есть и это сломает прокрутку.*/
 	padding: 2rem 0;
 	background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
 }
@@ -166,94 +167,84 @@ main {
 	}
 }
 
-	h1 {
-		font-weight: 500;
-		font-size: 25px;
-		line-height: 30px;
-		color: #FFFFFF;
-	}
+h1 {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
 
-	h2 {
-		font-weight: 400;
-		font-size: 20px;
-		line-height: 24px;
-		color: #CECACA;
-	}
+h2 {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #CECACA;
+}
 
-	h3 {
-		font-weight: 700;
-		font-size: 14px;
-		line-height: 17px;
-		color: #CECACA;
-	}
+h3 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #CECACA;
+}
 
-	h4 {
-		font-family: 'Montserrat';
-		font-style: normal;
-		font-weight: 700;
-		font-size: 14px;
-		line-height: 18px;
-		color: #FFFFFF;
-	}
+h4 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
 
-	h5 {
-		font-weight: 700;
-		font-size: 10px;
-		line-height: 18px;
-		color: #E5E5E5;
-	}
+h5 {
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 18px;
+	color: #E5E5E5;
+}
 
-	h6 {
-		font-weight: 600;
-		font-size: 14px;
-		line-height: 18px;
-		color: #FFFFFF;
-		text-transform: uppercase;
-	}
-
-
-	/*-------------------------------БЛОК 1-----------------------------*/
-
-	.about-me {
-		/* width: 300px;
-	height: 498px; */
-		background: rgba(196, 196, 196, 0.3);
-		border-radius: 10px;
-		/* padding: 0px 18px 10px 18px;
-	margin-right: 37px; */
-		padding: 18px;
-	}
-
-	.about-me__main {
-		display: flex;
-		margin-bottom: 32px;
-	}
-
-	.about-me__image {
-		/* padding: 20px 10px 28px 0px; */
-		margin-right: 10px;
-		width: 110px;
-		height: 110px;
-		flex-shrink: 0;
-	}
-
-	.about-me__image img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
+h6 {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
 
 
+/*-------------------------------БЛОК 1-----------------------------*/
+
+.about-me {
+	background: rgba(196, 196, 196, 0.3);
+	border-radius: 10px;
+	padding: 18px;
+}
+
+.about-me__main {
+	display: flex;
+	margin-bottom: 32px;
+}
+
+.about-me__image {
+	/* padding: 20px 10px 28px 0px; */
+	margin-right: 10px;
+	width: 110px;
+	height: 110px;
+	flex-shrink: 0;
+}
+
+.about-me__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
 .main-photo {
 	border-radius: 10px;
 	width: 110px;
 	height: 98px;
 }
-
-/* .profile {
-	padding: 24px 15px 32px 0;
-} */
 
 .email {
 	height: 38px;
@@ -297,7 +288,6 @@ main {
 	color: #FFFFFF;
 }
 
-
 .languages {
 	padding: 0px 18px 32px 18px;
 	/* width: 264px; */
@@ -321,7 +311,6 @@ main {
 	color: #FAFAFA;
 }
 
-
 .hobbies {}
 
 .hobbies h4 {
@@ -342,7 +331,6 @@ main {
 	display: inline-block;
 	padding: 0 25px 0 0;
 }
-
 
 /*--------------------------БЛОК 2--------------------------------*/
 
@@ -366,7 +354,6 @@ main {
 	margin-bottom: 12px;
 }
 
-
 h6 {
 	display: flex;
 	flex-direction: column;
@@ -388,7 +375,6 @@ h6:after {
 	height: 1px;
 	background-color: #545454;
 }
-
 
 .degree {
 	font-weight: 700;
@@ -431,5 +417,3 @@ h6:after {
 	text-align: center;
 }
 
-
-.code {}
