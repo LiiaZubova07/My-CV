@@ -373,7 +373,6 @@ h6:after {
 	text-align: center;
 }
 
-
 .code {
 	overflow: hidden;
 	background: rgba(196, 196, 196, 0.3);
@@ -381,14 +380,6 @@ h6:after {
 	margin-top: 33px;
 	padding: 10px;
 }
-
-/* .code__image {
-	width: 265px;
-	height: 208px;
-	margin-top: 10px;
-	margin-left: 30px;
-	flex-shrink: 0;
-} */
 
 /*--------------------------FOOTER--------------------------------*/
 
