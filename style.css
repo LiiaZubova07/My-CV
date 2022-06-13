@@ -104,30 +104,39 @@ body {
 	background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
 }
 
-main {
+.wrapper {
 	width: 690px;
 	background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
-	padding: 10px 14px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px 10px 0 0;
+}
+
+main {
 	display: flex;
 	gap: 37px;
-	border-radius: 10px;
+	padding: 10px 14px;
 }
 
 footer {
-	width: 690px;
 	display: flex;
 	justify-content: space-between;
 	padding: 10px 14px;
+	background: rgba(196, 196, 196, 0.3);
 }
 
 @media screen and (max-width: 700px) {
+
+.wrapper {
+	width: auto;
+}
+
 	main {
-		width: auto;
 		flex-direction: column;
 	}
 
 	footer {
-		width: auto;
+			flex-direction: row;
 	}
 }
 
@@ -191,7 +200,6 @@ h6 {
 }
 
 .about-me__image {
-	/* padding: 20px 10px 28px 0px; */
 	margin-right: 10px;
 	width: 110px;
 	height: 110px;
@@ -214,7 +222,6 @@ h6 {
 	height: 38px;
 	background: rgba(196, 196, 196, 0.35);
 	border-radius: 10px;
-	/* margin: 0 18px 5px 0; */
 	display: flex;
 }
 
@@ -223,15 +230,12 @@ h6 {
 	height: 38px;
 	background: rgba(196, 196, 196, 0.35);
 	border-radius: 10px;
-	/* margin: 0 18px 5px 0;*/
 }
 
 .location {
-
 	height: 38px;
 	background: rgba(196, 196, 196, 0.35);
 	border-radius: 10px;
-	/* margin: 0 18px 32px 0;  */
 	display: flex;
 }
 
@@ -254,7 +258,6 @@ h6 {
 
 .languages {
 	padding: 0px 18px 32px 18px;
-	/* width: 264px; */
 	height: 64px;
 	background: rgba(196, 196, 196, 0.35);
 	border-radius: 10px;
@@ -274,8 +277,6 @@ h6 {
 	line-height: 18px;
 	color: #FAFAFA;
 }
-
-.hobbies {}
 
 .hobbies h4 {
 	width: 90px;
@@ -368,8 +369,6 @@ h6:after {
 
 }
 
-.skills__list {}
-
 .skills__item {
 	display: inline-block;
 	padding: 0 16px 0 0;
@@ -385,30 +384,21 @@ h6:after {
 	padding: 10px;
 }
 
-.code__image {
+/* .code__image {
 	width: 265px;
 	height: 208px;
 	margin-top: 10px;
 	margin-left: 30px;
 	flex-shrink: 0;
-}
-
-.code__image img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+} */
 
 /*--------------------------FOOTER--------------------------------*/
-
-
 
 .github {
 	font-weight: 700;
 	font-size: 10px;
 	line-height: 18px;
 	color: #E5E5E5;
-
 }
 
 .github a {
@@ -428,8 +418,6 @@ h6:after {
 	color: #5F5F5F;
 }
 
-
-
 .github img {
 	margin-right: 12px;
 	width: auto;
@@ -446,6 +434,5 @@ h6:after {
 }
 
 .logo {
-	widows: 100%;
 	height: 21px;
 }
