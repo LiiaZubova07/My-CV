@@ -94,14 +94,14 @@ h6 {
 	scroll-behavior: smooth; 
  } */
 
-body {
+ body {
 	font-family: "Montserrat";
 	display: grid;
 	place-items: center;
 	min-height: 100vh;
 	/*минимальная высота будет 100vh. общепринятое, задавать минимальную высоту экрана, когда контент меньше и прокрутка не подразумевается. на мобилке, если высота ограничена, то прокрутка есть и это сломает прокрутку.*/
 	padding: 2rem 0;
-	background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+	background: linear-gradient(180deg, rgba(224, 37, 206, 0.79) 0%, rgba(3, 56, 244, 0.71) 93.75%);
 }
 
 .wrapper {
