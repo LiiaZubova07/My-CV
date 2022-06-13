@@ -124,17 +124,16 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-
-.wrapper {
-	width: auto;
-}
+	.wrapper {
+		width: auto;
+	}
 
 	main {
 		flex-direction: column;
 	}
 
 	footer {
-			flex-direction: row;
+		flex-direction: row;
 	}
 }
 
