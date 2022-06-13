@@ -377,8 +377,9 @@ h6:after {
 	overflow: hidden;
 	background: rgba(196, 196, 196, 0.3);
 	border-radius: 10px;
-	margin-top: 33px;
+	margin-top: 17px;
 	padding: 10px;
+	color: #E5E5E5;
 }
 
 /*--------------------------FOOTER--------------------------------*/
