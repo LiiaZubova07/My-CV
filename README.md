@@ -1,1 +1,1 @@
-https://LiiaZubova07.github.io/rsschool-cv/
+https://liiazubova07.github.io/My-CV/
