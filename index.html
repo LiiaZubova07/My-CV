@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/fonts/stylesheet.css">
+	<title>CV</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<!-- MAIN START -->
+		<main>
+			<div class="first-block">
+				<div class="about-me">
+					<div class="about-me__main">
+						<div class="about-me__image">
+							<img class="main-photo" src="./assets/img/main-photo.jpg" alt="main-photo">
+						</div>
+
+						<div class="profile">
+							<h2>Zubova</h2>
+							<h1>Liia</h1>
+							<h3>Junior<br/>Frontend Developer</h3>
+						</div>
+					</div>
+
+					<ul class="contacts">
+						<li class="email">
+							<img class="contacts__icons" src="./assets/icons/email-icon.svg" alt="email-icon">
+							<p class="contacts__p">vardlitmo@gmail.com</p>
+						</li>
+						<li class="phone-number">
+							<img class="contacts__icons" src="./assets/icons/phone-icon.svg" alt="phone-icon">
+							<p class="contacts__p">+7 (906) 243-18-67</p>
+						</li>
+						<li class="location">
+							<img class="contacts__icons" src="./assets/icons/location-icon.svg" alt="location-icon">
+							<p class="contacts__p">Saint Petersburg</p>
+						</li>
+					</ul>
+
+					<div class="languages">
+						<h4>Languages</h4>
+						<ul class="list__languages">
+							<li>English B1</li>
+							<li>Russian C2</li>
+						</ul>
+					</div>
+
+					<div class="hobbies">
+						<h4>Hobbies</h4>
+						<ul class="hobbies__list">
+							<li class="hobbies__item">
+								<img src="./assets/icons/Reading.svg" alt="reading-icon">
+								<h5>Reading</h5>
+							</li>
+							<li class="hobbies__item">
+								<img src="./assets/icons/Dance.svg" alt="dance-icon">
+								<h5>Dance</h5>
+							</li>
+							<li class="hobbies__item">
+								<img src="./assets/icons/Singing.svg" alt="singing-icon">
+								<h5>Singing</h5>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="second-block">
+				<div class="why-me">
+					<div class="education">
+						<h6>Education</h6>
+						<p class="degree">Bachelor of Linguistics</p>
+						<p class="university">UMTE University of Management Technologies and Economics</p>
+						<p class="date">2016-2020, St. Petersburg</p>
+					</div>
+
+					<div class="skills">
+						<h6>My skills</h6>
+						<ul class="skills__list">
+							<li class="skills__item">
+								<img src="./assets/icons/HTML-icon.svg" alt="HTML-icon">
+								<p>HTML</p>
+							</li>
+							<li class="skills__item">
+								<img src="./assets/icons/CSS-icon.svg" alt="CSS-icon">
+								<p>CSS</p>
+							</li>
+							<li class="skills__item">
+								<img src="./assets/icons/JS-icon.svg" alt="JS-icon">
+								<p>JavaScript</p>
+							</li>
+							<li class="skills__item">
+								<img src="./assets/icons/Figma-icon.svg" alt="Figma-icon">
+								<p>Figma</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="code">
+					<p><code>
+						//show formatted date<br>
+						<br>
+						function showDate() {<br>
+							<br>
+							let currentDate = new Date();<br>
+							<br>
+							let currDate = currentDate.getDate();<br>
+							<br>
+							let currMonth = currentDate.getMonth() + 1; //months are
+						zero based<br>
+						<br>
+							let currYear = currentDate.getFullYear();<br>
+							<br>
+							document.write(currDate + "-" + currMonth + "-" + currYear);<br>
+							<br>
+						 }</code></p>
+				</div>
+			</div>
+		</main>
+
+		<!-- MAIN END -->
+
+		<!-- FOOTER START -->
+
+		<footer>
+			<div class="github">
+				<a href="https://github.com/LiiaZubova07"><img src="./assets/icons/GitHub-icon.svg" alt="GitHub-icon">Visit my GitHub</a>
+			</div>
+
+			<p class="year">© 2022</p>
+
+			<div class="logo">
+				<a href="https://rs.school/js/"><img src="./assets/icons/logo-rss.svg" alt="logo-rss"></a>
+			</div>
+		</footer>
+
+		<!-- FOOTER END -->
+	</div>
+
+</body>
+
+</html>

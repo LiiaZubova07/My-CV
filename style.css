@@ -1,0 +1,429 @@
+/*----------------------------ОБНУЛЕНИЕ---------------------------------*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* html {
+	scroll-behavior: smooth; 
+ } */
+
+ body {
+	font-family: "Montserrat";
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+	/*минимальная высота будет 100vh. общепринятое, задавать минимальную высоту экрана, когда контент меньше и прокрутка не подразумевается. на мобилке, если высота ограничена, то прокрутка есть и это сломает прокрутку.*/
+	padding: 2rem 0;
+	background: linear-gradient(180deg, rgba(224, 37, 206, 0.79) 0%, rgba(3, 56, 244, 0.71) 93.75%);
+}
+
+.wrapper {
+	width: 690px;
+	background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px 10px 0 0;
+}
+
+main {
+	display: flex;
+	gap: 37px;
+	padding: 10px 14px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 14px;
+	background: rgba(196, 196, 196, 0.3);
+}
+
+@media screen and (max-width: 700px) {
+	.wrapper {
+		width: auto;
+	}
+
+	main {
+		flex-direction: column;
+	}
+
+	footer {
+		flex-direction: row;
+	}
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #CECACA;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #CECACA;
+}
+
+h4 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+
+h5 {
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 18px;
+	color: #E5E5E5;
+}
+
+h6 {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+
+/*-------------------------------BLOCK 1-----------------------------*/
+
+.about-me {
+	background: rgba(196, 196, 196, 0.3);
+	border-radius: 10px;
+	padding: 18px;
+}
+
+.about-me__main {
+	display: flex;
+	margin-bottom: 32px;
+}
+
+.about-me__image {
+	margin-right: 10px;
+	width: 110px;
+	height: 110px;
+	flex-shrink: 0;
+}
+
+.about-me__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.main-photo {
+	border-radius: 10px;
+	width: 110px;
+	height: 98px;
+}
+
+.email {
+	height: 38px;
+	background: rgba(196, 196, 196, 0.35);
+	border-radius: 10px;
+	display: flex;
+}
+
+.phone-number {
+	display: flex;
+	height: 38px;
+	background: rgba(196, 196, 196, 0.35);
+	border-radius: 10px;
+}
+
+.location {
+
+	height: 38px;
+	background: rgba(196, 196, 196, 0.35);
+	border-radius: 10px;
+	display: flex;
+}
+
+.contacts>*:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.contacts__icons {
+	padding: 7px 32px 7px 14px;
+}
+
+.contacts__p {
+	padding: 10px 50px 10px 0;
+	font-family: 'Calibri';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+
+.languages {
+	padding: 0px 18px 32px 18px;
+	height: 64px;
+	background: rgba(196, 196, 196, 0.35);
+	border-radius: 10px;
+	padding: 6px 165px 6px 16px;
+	margin-bottom: 32px;
+	margin-top: 32px;
+}
+
+.list__languages {
+	list-style-type: none;
+}
+
+.languages ul {
+	font-family: 'Calibri';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FAFAFA;
+}
+
+.hobbies h4 {
+	width: 90px;
+	height: 32px;
+	background: rgba(196, 196, 196, 0.35);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hobbies__list {
+	margin: 13px 28px 10px 23px;
+}
+
+.hobbies__item {
+	display: inline-block;
+	padding: 0 25px 0 0;
+}
+
+/*--------------------------BLOCK 2--------------------------------*/
+
+.second-block {
+	height: min-content;
+}
+
+.why-me {
+	overflow: hidden;
+	padding: 20px;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+.education {
+	margin-bottom: 12px;
+}
+
+h6 {
+	display: flex;
+	flex-direction: column;
+	width: 156px;
+	height: 24px;
+	background: #545454;
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+h6:after {
+	content: "";
+	position: relative;
+	bottom: 9px;
+	width: 100%;
+	left: 100%;
+	height: 1px;
+	background-color: #545454;
+}
+
+.degree {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	color: #343434;
+}
+
+.university {
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #343434;
+}
+
+.date {
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 9px;
+	line-height: 18px;
+	color: #73808D;
+}
+
+.skills {
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 18px;
+	color: #545454;
+
+}
+
+.skills__item {
+	display: inline-block;
+	padding: 0 16px 0 0;
+	text-align: center;
+}
+
+.code {
+	overflow: hidden;
+	background: rgba(196, 196, 196, 0.3);
+	border-radius: 10px;
+	margin-top: 17px;
+	padding: 10px;
+	color: #E5E5E5;
+}
+
+/*--------------------------FOOTER--------------------------------*/
+
+.github {
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 18px;
+	color: #E5E5E5;
+}
+
+.github a {
+	display: flex;
+	align-items: center;
+}
+
+.github a:visited {
+	color: #E5E5E5;
+}
+
+.github a:hover {
+	color: #A5A5A5;
+}
+
+.github a:active {
+	color: #5F5F5F;
+}
+
+.github img {
+	margin-right: 12px;
+	width: auto;
+	height: 25px;
+}
+
+.year {
+	margin: auto;
+	margin-right: auto;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 18px;
+	color: #E5E5E5;
+}
+
+.logo {
+	height: 21px;
+}
+
